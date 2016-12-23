@@ -19,7 +19,7 @@ function init() {
 
 function success(position) {
     var p = new google.maps.LatLng(position.coords.latitude,
-        positon.coords.longitude);
+        position.coords.longitude);
     map.setCenter(p);
 }
 
