@@ -4,7 +4,7 @@ var windowHeight = window.innerHeight;
 
 function init() {
     var opt = {
-        zoom: 8,
+        zoom: 20,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     var mm = document.getElementById("mymap");
